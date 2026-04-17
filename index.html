@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Zoe's Task Manager</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Zoe's Task Manager</h1>
+        <p>What task do you need to do today?</p>
+    </header>
+
+    <section class="task-section">
+        <label for="Add" class="label" id="input">Add Task:</label>
+        <input type="text" id="taskText">
+        <button id="addBtn">Add Task</button>
+        <button id="dltBtn">Delete A Task</button>
+        <button id="clrBtn">Clear All</button>
+
+        <ol id="taskList">
+
+        </ol>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
